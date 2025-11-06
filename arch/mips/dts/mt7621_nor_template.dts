@@ -40,7 +40,7 @@
 
 		wdt {
 			groups = "wdt";
-			function = "gpio";
+			function = "wdt rst";
 		};
 
 		rgmii2 {
